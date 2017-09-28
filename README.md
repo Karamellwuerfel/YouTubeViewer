@@ -14,7 +14,7 @@
 
 # OPTIMIZATION
 
-* Change width and height of youtube video frame
+* Change width and height of youtube video frame (core/modules/YouTubeViewer/YouTubeViewer.php:27-28)
 
 ```PHP
 //Video size in PIXELS
@@ -22,7 +22,7 @@ $width = '560';
 $height = '315';
 ```
 
-* Change how many "last videos" should be shown
+* Change how many "last videos" should be shown (core/modules/YouTubeViewer/YouTubeViewer.php:31)
 
 ```PHP
 //How many last videos should show
