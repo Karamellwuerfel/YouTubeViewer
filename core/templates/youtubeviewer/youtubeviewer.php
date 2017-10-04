@@ -19,7 +19,7 @@
 		<?php MainController::Run('YouTubeViewer', 'videos', ''); ?>
 		
 		<br>
-		<small style="color:#a3a3a3;">Updated <?php echo date("Y-m-d H:i:s") ;?>  |  YouTubeViewer Module v1.0 <?php echo $copyright; ?> <?php MainController::Run('YouTubeViewer', 'chk_update', ''); ?>
+		<small style="color:#a3a3a3;">Updated <?php echo date("Y-m-d H:i:s") ;?>  |  YouTubeViewer Module v1.1 <?php echo $copyright; ?> <?php MainController::Run('YouTubeViewer', 'chk_update', ''); ?>
 		</small>
 
 		

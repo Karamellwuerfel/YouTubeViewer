@@ -1,5 +1,5 @@
 # YouTubeViewer
-[![Badges](http://img.shields.io/:Version-1.0-fe7d37.svg)](https://github.com/Karamellwuerfel/YouTubeViewer)
+[![Badges](http://img.shields.io/:Version-1.1-fe7d37.svg)](https://github.com/Karamellwuerfel/YouTubeViewer)
 
 
 # INSTALLATION

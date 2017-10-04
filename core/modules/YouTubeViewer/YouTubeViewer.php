@@ -7,7 +7,7 @@
 		
 		public function chk_update(){
 			
-			$ver = 1.0; 
+			$ver = 1.1; 
 			$ver_actual = floatval(file_get_contents("https://www.dropbox.com/s/9y42dms9kuxkck5/YouTubeViewer_ver.txt?dl=1"));
 			
 			if($ver_actual > $ver){
@@ -41,7 +41,7 @@
 				if (!empty($xml->entry[$i]->children('yt', true)->videoId[0])){
 
 					$id = $xml->entry[$i]->children('yt', true)->videoId[0];
-					echo '<object width="'.$width.'" height="'.$height.'" data="http://www.youtube.com/v/'.$id.'" type="application/x-shockwave-flash"><param name="src" value="http://www.youtube.com/v/'.$id.'" /></object> <br><br>';
+					echo '<iframe width="'.$width.'" height="'.$height.'" src="https://www.youtube.com/embed/'.$id.'?rel=0" frameborder="0" allowfullscreen></iframe> <br><br>';
 				
 				}else{
 					
